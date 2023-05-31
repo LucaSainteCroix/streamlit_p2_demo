@@ -8,14 +8,6 @@ import requests
 import streamlit as st
 import pandas as pd
 
-import sys
-import subprocess
-
-# implement pip as a subprocess:
-subprocess.check_call([sys.executable, '-m', 'pip', 'install', 
-'streamlit-searchbox'])
-
-
 from streamlit_searchbox import st_searchbox
 
 logging.getLogger("streamlit_searchbox").setLevel(logging.DEBUG)
